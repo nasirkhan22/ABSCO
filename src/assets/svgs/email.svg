@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_4301" data-name="Group 4301" transform="translate(6107 -8788)">
+    <g id="Rectangle_526" data-name="Rectangle 526" transform="translate(-6107 8788)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="24" height="24" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" fill="none"/>
+    </g>
+    <path id="email" d="M7.68,67.248l3.907-3.378v6.755Zm-2.41.51-3.818,3.3h9.455l-3.818-3.3-.657.567a.384.384,0,0,1-.505,0Zm-.591-.51L.773,70.624V63.869Zm1.5.276,4.931-4.263H1.249Zm6.18-4.046a.991.991,0,0,0-.99-.99H.99a.991.991,0,0,0-.99.99V70.84a.99.99,0,0,0,.99.99H11.37a.99.99,0,0,0,.99-.99Z" transform="translate(-6101 8732.512)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

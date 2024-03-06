@@ -4,7 +4,7 @@ import Login from '@pages/Login'
 import { routes_here } from './routes'
 import { Route, Routes } from 'react-router-dom'
 import ScrollTop from '@components/ScrollTop'
-import BgImage from "@assets/pngs/bg_image.png";
+import BgImage from "@assets/images/background.png";
 
 export default function AppRoutes() {
 

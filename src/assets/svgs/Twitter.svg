@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Twitter" transform="translate(0.5 0.5)">
+    <circle id="Oval" cx="12" cy="12" r="12" transform="translate(0)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="twitter-2" data-name="twitter" d="M20.362,5.219,24.852,0H23.788l-3.9,4.531L16.776,0H13.185l4.708,6.852-4.708,5.473h1.064L18.366,7.54l3.288,4.785h3.591L20.362,5.219ZM18.905,6.913l-.477-.682L14.632.8h1.634L19.33,5.183l.477.682,3.982,5.7H22.154L18.905,6.913Z" transform="translate(-7.413 5.654)" fill="#fff"/>
+  </g>
+</svg>

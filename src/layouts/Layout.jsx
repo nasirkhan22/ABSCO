@@ -1,12 +1,11 @@
 import React from "react";
-import Linkedin from "@assets/pngs/linkedin.png";
-import Instagram from "@assets/pngs/insta.png";
-import Facebook from "@assets/pngs/facebook.png";
-import Twitter from "@assets/pngs/Twitter.png";
-import ABSCO from "@assets/pngs/ABSCO.png";
-import Call_Icon from "@assets/pngs/call_icon.png";
-import Email_icon from "@assets/pngs/email_icon.png";
-
+import Linkedin from "@assets/svgs/linkedin.svg?react";
+import Instagram from "@assets/svgs/instagram.svg?react";
+import Facebook from "@assets/svgs/facebook.svg?react";
+import Twitter from "@assets/svgs/Twitter.svg?react";
+import ABSCO from "@assets/svgs/absco.svg?react";
+import CallIcon from "@assets/svgs/wattsapp.svg?react";
+import Emailicon from "@assets/svgs/email.svg?react";
 import { Link } from "react-router-dom";
 
 export default function Layout({ children }) {
@@ -16,19 +15,19 @@ export default function Layout({ children }) {
         <div className="flex justify-between items-center p-[20px_100px_10px_100px] border-b border-[#27A8E0]">
           <div className="flex items-center gap-11">
             <div className="flex justify-center items-center gap-2">
-              <img src={Call_Icon} alt="" />
+              <CallIcon />
               <span className="primary-text">+966 (0) 11 200 0029</span>
             </div>
             <div className="flex justify-center items-center gap-2">
-              <img src={Email_icon} alt="" />
+              <Emailicon />
               <span className="primary-text">+966 (0) 11 200 0029</span>
             </div>
           </div>
           <div className="flex gap-4">
-            <img src={Instagram} alt="" />
-            <img src={Twitter} alt="" />
-            <img src={Facebook} alt="" />
-            <img src={Linkedin} alt="" />
+            <Instagram />
+            <Twitter />
+            <Facebook />
+            <Linkedin />
           </div>
         </div>
         <div className="flex justify-between p-[30px_100px_100px_100px]">
