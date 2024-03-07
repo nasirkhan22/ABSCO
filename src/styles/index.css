@@ -7,13 +7,10 @@
     Common Buttons
     **************************** */
     .primary-btn {
-        @apply bg-[#4E31AA] border-[#4E31AA] text-[#FFFFFF] text-[14px] font-semibold rounded-[4px] hover:shadow-none;
-      }
-      .primary-btn-cancel {
-        @apply border-[#EF2F88] text-[#EF2F88] text-[14px] font-semibold rounded-[4px] hover:shadow-none bg-transparent;
+        @apply flex justify-center items-center gap-3 w-[270px] h-12 text-white text-xl bg-[#27A8E0] hover:!border-[#27A8E0] hover:!bg-white hover:!text-[#27A8E0] rounded-full;
       }
       .seconday-btn {
-        @apply border-[#727272] text-[#727272] text-[14px]  rounded-[4px] hover:shadow-none bg-transparent;
+        @apply flex justify-center items-center w-[146px] h-12 text-lg rounded-full text-white hover:!text-white hover:!bg-[#27A8E0];
       }
       .ternary-btn {
         @apply border-[#4E31AA] text-[#4E31AA] text-[14px]  rounded-[4px] hover:shadow-none bg-transparent;
