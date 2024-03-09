@@ -36,7 +36,7 @@ export default function AppRoutes() {
                       backgroundRepeat: "no-repeat",
                       backgroundSize: "cover",
                       backgroundPosition: "right",
-                    //   height: "100vh",
+                      height: "110vh",
                       width: "100%",
                     }}
                   >

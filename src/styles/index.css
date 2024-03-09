@@ -7,7 +7,7 @@
     Common Buttons
     **************************** */
     .primary-btn {
-        @apply flex justify-center items-center gap-3 w-[270px] h-12 text-white text-xl bg-[#27A8E0] hover:!border-[#27A8E0] hover:!bg-white hover:!text-[#27A8E0] rounded-full;
+        @apply flex justify-center items-center gap-3 text-white text-xl bg-[#27A8E0] hover:!border-[#27A8E0] hover:!bg-white hover:!text-[#27A8E0] rounded-full;
       }
       .seconday-btn {
         @apply flex justify-center items-center w-[146px] h-12 text-lg rounded-full text-white hover:!text-white hover:!bg-[#27A8E0];
@@ -33,6 +33,7 @@
    
   }
 
-  body{
-    /* background-color: black; */
+  body {
+    
+  
   }

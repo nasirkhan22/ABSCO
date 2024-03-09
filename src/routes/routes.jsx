@@ -4,7 +4,7 @@ import { lazy } from "react";
 //---------------------------
 // imports
 //---------------------------
-const Home = lazy(() => import("@pages/Home"));
+const Home = lazy(() => import("@pages/Home/Home"));
 const Login = lazy(() => import("@pages/Login"));
 const ClientsSection = lazy(() => import("@pages/ClientsSection"));
 

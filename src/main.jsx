@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { BrowserRouter } from 'react-router-dom';
 import '@styles/index.css'
+import '@styles/common.scss'
 import { LocalizationProvider } from './context/LocalizationWrapper';
 
 const queryClient = new QueryClient();
