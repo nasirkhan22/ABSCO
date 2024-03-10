@@ -10,7 +10,10 @@
 .primary-btn {
   &:hover {
     .rightArrow {
-      fill: #27A8E0;
+      fill: #27a8e0;
     }
   }
+}
+.flip-vertical {
+  transform: scaleX(-1);
 }

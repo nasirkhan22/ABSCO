@@ -1,7 +1,7 @@
 import { Button } from "antd";
 import React from "react";
-import Cards from "@components/OurServices/Cards";
-import BlueCurrlyArrow from "../../assets/svgComponents/BlueCurrlyArrow";
+import Cards from "@components/Common/Cards";
+import BlueCurrlyArrow from "@assets/svgComponents/BlueCurrlyArrow";
 import RightArrow from "@assets/svgComponents/RightArrow";
 
 function OurServices() {
