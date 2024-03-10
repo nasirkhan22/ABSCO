@@ -1,56 +1,59 @@
-import React, { Suspense } from 'react'
-import Layout from '@layouts/Layout'
-import Login from '@pages/Login'
-import { routes_here } from './routes'
-import { Route, Routes } from 'react-router-dom'
-import ScrollTop from '@components/ScrollTop'
+import React, { Suspense } from "react";
+import Layout from "@layouts/Layout";
+import Login from "@pages/Login";
+import { routes_here } from "./routes";
+import { Route, Routes } from "react-router-dom";
+import ScrollTop from "@components/ScrollTop";
 import BgImage from "@assets/images/background.png";
 
 export default function AppRoutes() {
+  const isAuthenticated = true; // bool, based on token availabilty
 
-    const isAuthenticated = true; // bool, based on token availabilty
+  const renderRoute = (route, isAuthenticated) => {
+    if (route.isPrivate || isAuthenticated) {
+      return route.element;
+    }
+  };
 
-    const renderRoute = (route, isAuthenticated) => {
-        if (route.isPrivate || isAuthenticated) {
-            return route.element;
-        }
-    };
-
-    return (
-        <Suspense fallback={<h1>Loading....</h1>}>
-            <React.Fragment>
-
-                <ScrollTop />
-                <Routes>
-                    {/* ================= All Routes ================ */}
-                    {routes_here.map((route, key) => (
-                        !isAuthenticated ?
-                            <Route key={key} path="/login" element={<Login />} />
-                            :
-                            <Route
-                                // index
-                                key={key}
-                                path={route.path}
-                                element={
-                                    <div  style={{
-                                        backgroundImage: `url(${BgImage})`,
-                                        backgroundRepeat: "no-repeat",
-                                        backgroundSize: "cover",
-                                        backgroundPosition: "right",
-                                      }}>
-                                    <Layout>
-                                        <Suspense fallback={<h1>Loading....</h1>}>
-                                            {renderRoute(route, isAuthenticated)}
-                                        </Suspense>
-                                    </Layout>
-                                    </div>
-                                }
-                            />
-                    ))}
-                </Routes>
-
-
-            </React.Fragment>
-        </Suspense>
-    )
+  return (
+    <Suspense fallback={<h1>Loading....</h1>}>
+      <React.Fragment>
+        <ScrollTop />
+        <Routes>
+          {/* ================= All Routes ================ */}
+          {routes_here.map((route, key) =>
+            !isAuthenticated ? (
+              <Route key={key} path="/login" element={<Login />} />
+            ) : (
+              <Route
+                // index
+                key={key}
+                path={route.path}
+                element={
+                  <div
+                    style={{
+                      backgroundImage: `url(${BgImage})`,
+                      backgroundRepeat: "no-repeat",
+                      backgroundSize: "cover",
+                      backgroundPosition: "right",
+                      // minHeight: "100vh",
+                      height: "100vh",
+                      // backgroundAttachment: "fixed",
+                      width: "100%",
+                    }}
+                  >
+                    <Layout>
+                      <Suspense fallback={<h1>Loading....</h1>}>
+                        {renderRoute(route, isAuthenticated)}
+                      </Suspense>
+                    </Layout>
+                  </div>
+                }
+              />
+            )
+          )}
+        </Routes>
+      </React.Fragment>
+    </Suspense>
+  );
 }

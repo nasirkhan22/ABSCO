@@ -31,7 +31,7 @@ export default function Layout({ children }) {
           </div>
         </div>
         <div className="flex justify-between p-[30px_100px_100px_100px]">
-          <img className="w-[125px]" src={ABSCO} alt="" />
+          <ABSCO />
           <div className="flex items-center gap-10">
             <Link className="primary-text text-lg">Home</Link>
             <Link className="primary-text text-lg">About Us</Link>

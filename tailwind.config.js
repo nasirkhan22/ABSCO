@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        Green: "#1fdf64",
-        Black: "#000",
-        DeepNightBlack: "#121212",
+        Sky: "#27A8E0",
+        Blue: "#292561",
+        LightSky: "#E7F6FC",
         MidNightBlack: "#181818",
         EveningBlack: "#1a1a1a",
-        DarkGray: "#282828",
+        DarkGray: "#646464",
         SlateGray: "#404040",
         LightGray: "#959595",
         SilverGray: "#B3B3B3",

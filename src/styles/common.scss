@@ -1,0 +1,19 @@
+.card {
+  &:hover {
+    .arrow {
+      fill: #fff !important;
+      stroke: #fff !important;
+      transform: rotate(50deg);
+    }
+  }
+}
+.primary-btn {
+  &:hover {
+    .rightArrow {
+      fill: #27a8e0;
+    }
+  }
+}
+.flip-vertical {
+  transform: scaleX(-1);
+}

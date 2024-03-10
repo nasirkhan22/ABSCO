@@ -4,8 +4,9 @@ import { lazy } from "react";
 //---------------------------
 // imports
 //---------------------------
-const Home = lazy(() => import("@pages/Home"));
+const Home = lazy(() => import("@pages/Home/Home"));
 const Login = lazy(() => import("@pages/Login"));
+const ClientsSection = lazy(() => import("@pages/ClientsSection"));
 
 
 
@@ -21,6 +22,11 @@ export const routes_here = [
     {
         path: "/login",
         element: <Login />,
+        isPrivate: false,
+    },
+    {
+        path: "/client_section",
+        element: <ClientsSection />,
         isPrivate: false,
     },
     //routes in objects
