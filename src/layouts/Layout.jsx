@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 export default function Layout({ children }) {
   return (
-    <div className="font-cairoRegular bg-transparent">
+    <div className="font-cairoRegular bg-transparent relative z-50">
       <header className="">
         <div className="flex justify-between items-center p-[20px_100px_10px_100px] border-b border-[#27A8E0]">
           <div className="flex items-center gap-11">

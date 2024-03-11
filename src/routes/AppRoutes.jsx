@@ -30,24 +30,25 @@ export default function AppRoutes() {
                 key={key}
                 path={route.path}
                 element={
-                  <div
-                    style={{
-                      backgroundImage: `url(${BgImage})`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundSize: "cover",
-                      backgroundPosition: "right",
-                      // minHeight: "100vh",
-                      height: "100vh",
-                      // backgroundAttachment: "fixed",
-                      width: "100%",
-                    }}
-                  >
+                  // <div
+                  //   style={{
+                  //     backgroundImage: `url(${BgImage})`,
+                  //     backgroundRepeat: "no-repeat",
+                  //     backgroundSize: "cover",
+                  //     backgroundPosition: "right",
+                  //     // maxHeight: "100vh",
+                  //     height: "auto",
+                  //     // backgroundAttachment: "fixed",
+                  //     width: "100%",
+                  //     position: "relative"
+                  //   }}
+                  // >
                     <Layout>
                       <Suspense fallback={<h1>Loading....</h1>}>
                         {renderRoute(route, isAuthenticated)}
                       </Suspense>
                     </Layout>
-                  </div>
+                  // </div>
                 }
               />
             )

@@ -10,9 +10,10 @@ import BlueCurrlyArrow from "@assets/svgComponents/BlueCurrlyArrow";
 
 function ClientsSection() {
   return (
-    <div className="bg-LightSky relative pb-16 mt-[110px]">
-      <div className="flex items-center justify-center flex-col gap-10 bg-white rounded-3xl relative top-[-30px]  m-[0px_100px_0px_100px] p-[40px_0px_40px_0px]">
-        <div className="flex flex-col items-center">
+    <div className="bg-LightSky bottom-0 absolute">
+        <h1>bgfbgfbfg</h1>
+      {/* <div className="flex items-center justify-center flex-col gap-10 bg-white rounded-3xl absolute top-[-30px]  m-[0px_100px_0px_100px] p-[40px_0px_40px_0px]"> */}
+        {/* <div className="flex flex-col items-center">
           <span className="text-Sky">A CLOSER LOOK AT WHAT</span>
           <h1 className="text-Blue font-bold text-5xl">We've Accomplished</h1>
         </div>
@@ -42,11 +43,12 @@ function ClientsSection() {
       <div className="flex flex-col justify-center items-center gap-10 mt-9">
         <div className="flex flex-col items-center gap-2 relative">
           <div className="absolute right-[-15px] top-[51px]">
-            <BlueCurrlyArrow 
-            viewBox={"0 0 100.422 220"} 
-            transform={"translate(181.422 52.665) rotate()"}
-            width={"181.422"} 
-            height={"120.357"}/>
+            <BlueCurrlyArrow
+              viewBox={"0 0 100.422 220"}
+              transform={"translate(181.422 52.665) rotate()"}
+              width={"181.422"}
+              height={"120.357"}
+            />
           </div>
           <span className="text-Sky">OUR CLIENTS</span>
           <h1 className="text-Blue font-bold text-5xl">Our Trusted Clients</h1>
@@ -65,8 +67,8 @@ function ClientsSection() {
           <div className="flex items-center p-5 rounded-lg bg-white">
             <FitnessEvolution />
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 }
