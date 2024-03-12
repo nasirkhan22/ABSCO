@@ -65,8 +65,8 @@ function ClientsSection() {
           <div className="flex items-center p-5 rounded-lg bg-white">
             <FitnessEvolution />
           </div>
-        </div> */}
-      {/* </div> */}
+        </div> 
+      </div>
     </div>
   );
 }
