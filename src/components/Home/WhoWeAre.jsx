@@ -38,7 +38,7 @@ function WhoWeAre() {
         </div>
       </div>
       <div className="">
-      <img className="" src={BorderImage} alt="" />
+      <img className="w-full" src={BorderImage} alt="" />
       </div>
     </>
   );

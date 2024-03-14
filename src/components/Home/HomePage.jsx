@@ -3,9 +3,9 @@ import { Button } from "antd";
 import RightArrow from "@assets/svgComponents/RightArrow";
 import BgImage from "@assets/images/background.png";
 import ClientsSection from "@components/Home/ClientsSection";
-import OurServices from "@components/Home/OurServices";
-import WhoWeAre from "@components/Home/WhoWeAre";
-import CompanyExpandation from "@components/Home/CompanyExpandation";
+// import OurServices from "@components/Home/OurServices";
+// import WhoWeAre from "@components/Home/WhoWeAre";
+// import CompanyExpandation from "@components/Home/CompanyExpandation";
 export default function HomePage() {
   return (
     <div
@@ -38,7 +38,7 @@ export default function HomePage() {
         <Button className="seconday-btn">Learn More</Button>
       </div>
       <div className="">
-        <ClientsSection />
+        {/* <ClientsSection /> */}
         {/* <OurServices />
         <WhoWeAre />
         <CompanyExpandation /> */}
