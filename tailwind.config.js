@@ -16,7 +16,7 @@ export default {
         SlateGray: "#404040",
         LightGray: "#959595",
         SilverGray: "#B3B3B3",
-        Snow: "#ffffff",
+        Green: "#316E03",
       },
       fontFamily: {
         cairoRegular: ['cairo-regular', 'sans-serif'],
